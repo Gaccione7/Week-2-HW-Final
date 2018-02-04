@@ -64,6 +64,8 @@ body {
 width: 100%;
 margin: auto;
 height: 500px;
+font-family: open sans-serif;
+
 
 }
 
@@ -89,18 +91,22 @@ button {
 
 main {
   background-color: white;
-  padding: 4%;
-  padding-top: 3%;
+  padding: 3%;
+  padding-top: 1%;
   width: 100%;
   margin-top: 20%; 
   font-weight: lighter;
+  font-weight: semibold;
   font-size: 13px; 
   font-family: sans-serif;
   color: #606161;
+  font-weight: 50;
+  font-size: 13px;
 }
 
 li {
   margin: 3px;
+  font-weight: 10;
 }
 
 h2 {
@@ -114,28 +120,53 @@ section div .box {
   background-color: #f9e42e;
   padding: 20px;
   width: 100%; 
-
+  margin: auto;
+  position: static;
 }
+
+.quote {
+  background: url(../images/testimonial_bg.jpg);
+  width: 100%;
+  margin: auto;
+  height: 250px;
+  font-weight: semibold;
+  color: #606161;
+  font-size: 18px;
+  font-style: italic;
+  padding-top: 50px;
+  }
+
+footer {
+  font-family: sans-serif;
+  color: #f9e42e;
+  font-size: 24px;
+  font-weight: 750;
+  text-align: center;
+  background-color: black;
+  padding: 60px;
+  }
+
 
 .innerbox {
   background-color: #033048;
   display: inline-block;
-  padding: 10px;
-  padding-right: 40px;
-  padding-left: 40px;
-  margin-left: 35%;
-  border-radius: 8px;
- }
-
-
-footer {
-  background: url(../images/testimonial_bg.jpg);
-  padding: 10%;
-  font-family: sans-serif;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 50px;
+  padding-right: 50px;
+  border-radius: 5px;
   color: white;
-  font-style: italic;
-  font-size: 18px;
- }
+   }
+
+img {
+  padding: 10px;
+}
+
+.span {
+  color: white;
+  font-size: 9px;
+  font-weight: 50;
+}
 
 /******************************************
 /* ADDITIONAL STYLES
